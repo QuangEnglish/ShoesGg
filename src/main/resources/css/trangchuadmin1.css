@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.clear {
+    clear: both;
+}
+
+
+#content-right {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 75%;
+}
+
+#content-right input {
+    height: 30px;
+    padding-left: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#content-right select {
+    height: 30px;
+    font-size: 16px;
+}
+
+.right-top-left {
+    float: left;
+    
+}
+
+.right-top-left .timkiem {
+    padding-right: 5px;
+    background-color: blanchedalmond;
+    border-radius: 2px;
+    
+    
+}
+
+
+.right-top-right input {
+    float: right;
+}
+
+.dongsanpham {
+    margin-top: 50px;
+}
+
+.bangsanpham {
+    border-collapse: collapse;
+}
+
+.bangsanpham th {
+    width: 200px;
+    padding-bottom: 30px;
+    
+}
+
+
+.bangsanpham td {
+    width: 200px;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid black;
+}
+
+.bangsanpham td img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.bangsanpham td input {
+    margin-right: 10px;
+    padding-right: 5px;
+}
+
+
+.chuyetrang {
+    width: 100%;
+    margin-left: 50%;
+}
+
+.chuyetrang input {
+    padding: 10px 15px;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+.cuasoxacnhan {
+    display: none;
+    top: 50%;
+    left: 50%;
+    
+    position: fixed;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    transform: translate(-50%, -50%);
+}
+
+.cuasoxacnhan .tieude-xacnhan {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0;
+    background: aquamarine;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid black;
+}
+
+
+.cuasoxacnhan .noidung-xacnhan {
+    font-size: 20px;
+    padding: 10px 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cuasoxacnhan .nut-xacnhan {
+    margin-top: 30px;
+    
+}
+
+.cuasoxacnhan .nut-xacnhan input {
+    width: 100px;
+    margin-left: 30px;
+}
+  

@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.clear {
+    clear: both;
+}
+
+
+#noidung  {
+	margin-top: 150px;
+}
+
+#tenloaiao > p {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin-right: 50px;
+}
+
+#tenloaiao {
+    /*margin-top: 150px;*/
+    margin-left: 50px;
+}
+
+
+#tenloaiao .loaiao {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+.loaiao p {
+    padding: 2px 10px;
+}
+
+#tenloaiao .sapxep {
+    float: right;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+
+.sapxep > p {
+    float: left;
+    margin-right: 2px;
+}
+
+#loaisanpham {
+    width: 100%;
+    margin-top: 120px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+#loaisanpham .tenloai {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.sanpham {
+    width: 330px;
+    height: 500px;
+    float: left;
+    margin-bottom: 70px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.sanpham img {
+    width: 330px;
+    height: 450px;  
+    
+    object-fit: cover;
+}
+
+.sanpham p {
+    font-size: 17px;
+    margin-top: 8px;
+    
+}
+.sanpham .gia {
+    font-weight: bold;
+}
+
+.sanpham > .tensp {
+	height: 42px !important;
+}
+
+
+.phantrang {
+ 	display: flex;
+    justify-content: center;
+}
+
+
+.filter-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#body-search {
+    margin-top: 150px;
+    width: 900px;
+    margin-left: 300px;
+    
+}
+
+#body-search .tim-kiem {
+    width: 900px;
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.tim-kiem input {
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    width: 530px;
+}
+.tim-kiem i {
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.tim-kiem .ti-close {
+    display: none;
+}
+
+.san-pham-tim-kiem {
+    margin-top: 30px;
+}
+
+.san-pham-tim-kiem .so-san-pham {
+    font-size: 20px;
+}
+
+.dong-san-pham {
+    margin-bottom: 30px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+.dong-san-pham img {
+    height: 120px;
+    width: 120px;
+    float: left;
+    margin-right: 30px;
+}
+
+.dong-san-pham .mau-sac {
+    margin-top: 30px;
+}
+
+.thong-tin-san-pham p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.phan-trang {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.ti-search-filter{
+    padding: 12px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    border-radius: 25px;
+}

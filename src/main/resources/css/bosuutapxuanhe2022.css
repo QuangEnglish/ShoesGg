@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.clear {
+    clear: both;
+}
+
+.xuanhe-header {
+    width: 100%;
+}
+
+.xuanhe-header img {
+    width: 100%;
+}
+
+body {
+    padding-top: 150px;
+    width: 100%;
+}
+
+
+#body-xuanhe2022 {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.contentman-ten {
+    height: 400px;
+    width: 340px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contentman-tenman {
+    background-color: #f4f4f4;
+    margin-left: 16px;
+}
+
+.contentman-ten .tenbosuutap {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+.contentman-ten .noidungbo {
+    font-size: 18px;
+    width: 280px;
+    margin: 0 10px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+
+.contentman-ten img {
+    height: 400px;
+    width: 350px;
+}
+
+#anh-man {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+#anh-man img {
+    width: 48.5%;
+    height: 900px;
+}
+
+#anh-man-duoi {
+    margin-top: 100px;
+}
+
+
+
+#loaisanpham {
+    width: 100%;
+    margin-top: 100px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+#loaisanpham .tenloai {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.sanpham {
+    width: 330px;
+    height: 500px;
+    float: left;
+    margin-bottom: 70px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.sanpham img {
+    width: 330px;
+    height: 450px;  
+    
+    object-fit: cover;
+}
+
+.sanpham p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+.sanpham .gia {
+    font-weight: bold;
+}
+
+
+
+#man-ten-noidung {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#man-ten-noidung .man-t {
+    font-size: 25px;
+    text-align: center;
+}
+
+#man-ten-noidung .man-nd {
+    margin-top: 50px;
+    text-align: center;
+    width: 60%;
+    margin-left: 280px;
+    font-size: 18px;
+    line-height: 30px;
+}

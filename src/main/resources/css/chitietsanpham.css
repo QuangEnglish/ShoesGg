@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+#chitetsanpham {
+    width: 100%;
+    margin-top: 120px;
+    /*margin-left: 200px;*/
+    margin-bottom: 50px;
+}
+
+#chitetsanpham .tren{
+    display: flex;
+    justify-content: center;
+}
+
+#chitetsanpham .tren .right {
+    float: left;
+    margin-right: 30px;
+}
+
+#chitetsanpham .tren .right img {
+	height: 500px;
+	width: 500px;
+}
+
+.tren .left {
+    float: left;
+}
+
+.left p {
+    margin-bottom: 20px;
+}
+
+.left ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.left .si > li {
+    padding: 25px;
+    height: 20px;
+    text-align: center;
+}
+
+.left .si li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+
+}
+
+.left .ten {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-right: 50px;
+}
+
+.left .gia {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left .soluong {
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.left .sl {
+    float: left;
+    border-top: 1px solid black;
+    width: 102px;
+    border-bottom: 1px solid black;
+
+}
+
+.left .sl li {
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+.left .tang {
+    cursor: pointer;
+
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.left .tang:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.left .themgh, .mua {
+    font-size: 20px;
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.left .themgh:hover {
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+
+.left .mua {
+    background-color: black;
+    color: white;
+}
+
+.duoi {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.duoi .thongtin {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.duoi {
+    font-size: 17px;
+    margin: 50px auto;
+}
+
+.duoi .nd {
+    margin-top: 20px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+#sanphamlienquan > p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#loaisanpham {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+
+#loaisanpham .tenloai {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.sanpham {
+    width: 330px;
+    height: 500px;
+    float: left;
+    margin-bottom: 70px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.sanpham img {
+    width: 330px;
+    height: 450px;
+
+    object-fit: cover;
+}
+
+.sanpham p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+.sanpham .gia {
+    font-weight: bold;
+}
+
+#sanphamlienquan {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.danhsachsanphamlienquan {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    transition: all 0.5s ease;
+
+}
+
+#loaisanpham {
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.button_chuyen_sanphamlienquan {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 50px;
+    font-size: 40px;
+    color: gray;
+    top: 400px;
+    left: 2%;
+}
+
+
+#loaisanpham:nth-child(2){
+    transform: translateX(100%);
+}
+
+#loaisanpham:nth-child(3){
+    transform: translateX(200%);
+}
+
+
+.btn_san_pham_lien_quan_trai:hover {
+    color: aqua;
+}
+
+.btn_san_pham_lien_quan_phai:hover {
+    color: aqua;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 20px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 6px;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1)
+}
+
+.comment-box{
+
+    padding:5px;
+}
+
+
+
+.comment-area textarea{
+    resize: none;
+    border: 1px solid #ad9f9f;
+}
+
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 0 1px rgb(255, 234, 0) !important;
+}
+
+.send {
+    color: #fff;
+    background-color: #fff200;
+    border-color: #fff200;
+}
+
+.send:hover {
+    color: #fff;
+    background-color: #fff200;
+    border-color: #fff200;
+}
+
+
+.rating {
+    display: flex;
+    margin-top: -10px;
+    flex-direction: row-reverse;
+    margin-left: -4px;
+    float: left;
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 19px;
+    font-size: 25px;
+    color: #fff200;
+    cursor: pointer;
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+
+.comment-footer{
+    float: right;
+}

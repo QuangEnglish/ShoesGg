@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.content-them {
+	margin-left: 100px;
+	float: left;
+}
+
+h1 {
+    margin-left: 50px;
+
+}
+
+#upanh {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#upanh img {
+    height: 200px;
+    width: 200px;
+    
+}
+
+.content-body {
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.content-body p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.content-body input, textarea {
+    width: 400px;
+    padding: 5px;
+}
+
+
+.nut {
+    width: 100px !important;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+select {
+    height: 30px;
+    width: 200px;
+}
+
+

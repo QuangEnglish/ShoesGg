@@ -1,0 +1,231 @@
+#tieude {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+#content {
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+
+#content-left {
+    width: 300px;
+    border: 1px solid black;
+    height: 800px;
+    background-color: gray;
+    border-radius: 20px;
+    float: left;
+}
+
+#content-left .avatar {
+    margin-top: 30px;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    padding: 0 30px;
+
+}
+
+.avatar img {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.avatar .admin {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.nganavt {
+    margin-top: 70px;
+}
+
+
+
+#menu ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 500;
+    
+    height: 50px;
+    border-bottom: 2px solid white;
+    line-height: 50px;
+    padding-left: 30px;
+}
+
+#menu ul li a{
+	color: aliceblue;
+	text-decoration: none;
+}
+
+#menu ul li:hover {
+    cursor: pointer;
+    
+    border-bottom: 2px solid black;
+}
+
+#menu ul li:hover a {
+	color: black;
+}
+
+#other {
+    margin-top: 30px;
+}
+#other p {
+    color: aliceblue;
+    margin-bottom: 165px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#other p:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#other > p > a {
+	text-decoration: none;
+	color: white;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none;
+}
+
+.modal {
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 2;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+#dangky {
+    margin: 0 auto;
+    height: 500px;
+    width: 320px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#dangky > p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#form-dang-ky{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.dangky {
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+}
+
+
+#showMockupBtn {
+    /*padding: 10px 20px;*/
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#mockup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền mờ */
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*z-index: 9999; !* Đưa mock-up lên trên cùng *!*/
+    display: none;
+}
+
+.mockup-content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mockup-hidden {
+    display: none;
+}

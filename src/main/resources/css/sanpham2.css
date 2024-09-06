@@ -1,0 +1,444 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.clear {
+    clear: both;
+}
+
+#baongoaiheader {
+    
+    height: 100px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    /*padding-top: 30px;*/
+    position: fixed;
+    /*padding-left: 30px;*/
+    /*margin-top: 0px;*/
+    background-color: white;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+
+
+.menusanpham{
+    position: relative;
+}
+
+
+.menucon1{
+    position: absolute;
+    display: none;
+    width: 150px;
+    left: -15px;
+    background-color: white;
+    padding: 0 15px;
+    top: 25px;
+}
+
+.menucon1 li {
+    list-style: none;
+    padding:20px 0;
+}
+
+.menucon1 > li:hover > a{
+    color: grey;
+}
+
+.menucon1 li a {
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+#menu > ul > li:hover .menucon1 {
+    display: block;
+}
+
+
+.menuao:hover > .menucon2 {
+    display: block;
+}
+
+.menucap2{
+    position: absolute;
+    display: none;
+    width: 150px;
+    left: 175px;
+    top: 0;
+    background-color: white;
+    padding: 0 15px;
+}
+
+.menucap2 > li:hover > a {
+    color: grey;
+}
+
+.menucap2 > li > a {
+    font-weight: 500;
+}
+
+.menucon1 ul
+{
+    position: absolute;
+    display: none;
+}
+
+.menuquan:hover > .menuquan2 {
+    display: block;
+}
+
+.menuquan2 {
+    top: 60px;
+    
+}
+
+.menudobo:hover > .menudobo2 {
+    display: block;
+}
+
+.menudobo2 {
+    top: 125px;
+}
+
+.menuphukien {
+    position: relative;
+}
+
+.menuphukien:hover > .menuconphukien {
+    display: block;
+}
+
+.menuconphukien {
+    display: none;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+
+
+.menuconphukien li {
+    list-style-type: none;
+    padding: 20px 10px;
+}
+
+.menuconphukien li:hover a {
+    color: grey;
+}
+
+.menubosuutap {
+    position: relative;
+}
+
+.menubosuutap:hover .menuconbosuutap {
+    display: block;
+}
+
+.menuconphukien li a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.menuconbosuutap {
+    display: none;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+
+
+.menuconbosuutap li {
+    list-style-type: none;
+    padding: 20px 10px;
+}
+
+.menuconbosuutap li:hover a {
+    color: grey;
+}
+
+.menuconbosuutap li a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+#logo {
+    float: left;
+    cursor: pointer;
+}
+#logo img{
+    width: 80px;
+    height: 80px;
+}
+
+
+#menu {
+    float: left;
+    margin-top: 30px;
+}
+
+#menu > ul > li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+#menu > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#timkiem {
+    margin-top: 25px;
+    margin-left: 50px;
+    float: left;
+    width: 205px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
+#timkiem input {
+    border: none;
+    height: 30px;
+    float: left;
+    margin-left: 15px;
+}
+
+#timkiem i {
+    float: left;
+    margin-top: 8px;
+
+}
+
+#yeuthich {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+#yeuthich i {
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+
+body {
+    padding-top: 100px;
+}
+
+
+#tenloaiao > p {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin-right: 50px;
+    height: 100px;
+    
+}
+
+#tenloaiao {
+    /*margin-top: 100px;*/
+    margin-left: 50px;
+}
+
+
+#tenloaiao .loaiao {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+    text-align: center;
+    
+}
+
+.loaiao {
+	margin-bottom: 20px;
+	float: left;
+	cursor: pointer;
+}
+
+.loaiao input {
+    padding: 2px 10px;
+    border: none;
+    justify-content: center;
+    outline: none;
+    background: white;
+    margin: 0 20px;
+    
+    font-size: 16px;
+}
+
+.laoiao:hover {
+	background: black;
+}
+
+.laoiao:hover input{
+	background: black;
+	color: white;
+}
+
+#tenloaiao .sapxep {
+    float: right;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+
+.sapxep > p {
+    float: left;
+    margin-right: 2px;
+}
+
+
+#loaisanpham {
+    width: 100%;
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+#loaisanpham .tenloai {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.sanpham {
+    width: 330px;
+    height: 500px;
+    float: left;
+    margin-bottom: 70px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.sanpham img {
+    width: 330px;
+    height: 450px;  
+    
+    object-fit: cover;
+}
+
+.sanpham p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+.sanpham .gia {
+    font-weight: bold;
+}
+
+
+.sanpham > .tensp {
+	height: 42px !important;
+}
+
+
+
+#footer {
+    margin-left: 100px;
+    height: 200px;
+    
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+#footer .right {
+    float: left;
+    margin-right: 80px;
+}
+
+#footer .right p {
+    font-weight: bold;
+}
+
+#footer .right ul {
+    margin-top: 20px;
+   
+    
+}
+
+#footer .right ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+#footer .left {
+    float: right;
+    margin-right: 250px;
+} 
+
+#footer .left .theodoi {
+    font-weight: bold;
+}
+
+
+#footer .left .email {
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+#footer .left .email input {
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    width: 200px;
+}
+
+
+#footer .left .email button {
+    height: 30px;
+    background-color: black;
+    color: white;
+    width: 80px;
+}
+
+.ketnoi {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.icon {
+    margin-top: 5px;
+}
+
+.icon i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+.phantrang {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}

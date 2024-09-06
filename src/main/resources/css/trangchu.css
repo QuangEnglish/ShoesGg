@@ -1,0 +1,728 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+#baongoaiheader {
+    
+    height: 100px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    /*padding-top: 30px;*/
+    position: fixed;
+    /*padding-left: 30px;*/
+    /*margin-top: 0px;*/
+    background-color: white;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+
+
+.menusanpham{
+    position: relative;
+}
+
+
+.menucon1{
+    position: absolute;
+    display: none;
+    width: 200px;
+    left: -15px;
+    background-color: white;
+    padding: 0 15px;
+}
+
+.menucon1 li {
+    list-style: none;
+    padding:20px 0;
+    white-space: nowrap;
+}
+
+.menucon1 > li:hover > a{
+    color: grey;
+}
+
+.menucon1 li a {
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+#menu > ul > li:hover .menucon1 {
+    display: block;
+}
+
+
+.menuao:hover > .menucon2 {
+    display: block;
+}
+
+.menucap2{
+    position: absolute;
+    display: none;
+    
+    width: 150px;
+    left: 175px;
+    top: 0;
+    background-color: white;
+    padding: 0 15px;
+}
+
+.menucap2 > li:hover > a {
+    color: grey;
+}
+
+.menucap2 > li > a {
+    font-weight: 500;
+}
+
+.menucon1 ul
+{
+    position: absolute;
+    display: none;
+}
+
+.menuquan:hover > .menuquan2 {
+    display: block;
+}
+
+.menuquan2 {
+    top: 60px;
+    
+}
+
+.menudobo:hover > .menudobo2 {
+    display: block;
+}
+
+.menudobo2 {
+    top: 125px;
+}
+
+.menuphukien {
+    position: relative;
+}
+
+.menuphukien:hover > .menuconphukien {
+    display: block;
+}
+
+.menuconphukien {
+    display: none;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+
+
+.menuconphukien li {
+    list-style-type: none;
+    padding: 20px 10px;
+}
+
+.menuconphukien li:hover a {
+    color: grey;
+}
+
+.menubosuutap {
+    position: relative;
+}
+
+.menubosuutap:hover .menuconbosuutap {
+    display: block;
+}
+
+.menuconphukien li a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.menuconbosuutap {
+    display: none;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+
+
+.menuconbosuutap li {
+    list-style-type: none;
+    padding: 20px 10px;
+}
+
+.menuconbosuutap li:hover a {
+    color: grey;
+}
+
+.menuconbosuutap li a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+#logo {
+    float: left;
+    cursor: pointer;
+}
+#logo img{
+    width: 80px;
+    height: 80px;
+}
+
+
+#menu {
+    float: left;
+    margin-top: 30px;
+}
+
+#menu > ul > li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+#menu > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#timkiem {
+    margin-top: 25px;
+    margin-left: 50px;
+    float: left;
+    width: 205px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
+#timkiem input {
+    border: none;
+    height: 30px;
+    float: left;
+    margin-left: 15px;
+}
+
+#timkiem i {
+    float: left;
+    margin-top: 8px;
+
+}
+
+#yeuthich {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+#yeuthich i {
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+
+#body {
+    width: 100%;
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.slide-show {
+    width: 1450px;
+    overflow: hidden;
+    height: 680px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.anhthuonghieu {
+    display: flex;
+    width: 400%;
+    height: 680px;
+    -webkit-animation: slide 14s ease infinite;
+}
+
+.slide {
+    /*float: left;*/
+    width: 100%;
+    height: 680px;
+    overflow: hidden;
+}
+
+.slide img {
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+}
+
+
+.danhmucnoibat {
+    
+    margin-top: 50px;
+    
+    
+}
+
+.sanphamnoibat:hover {
+    cursor: pointer;
+}
+
+.danhmucnoibat .ten {
+    font-size: 25px;
+    margin-bottom: 30px;
+    /*margin-left: 30px;*/
+    text-align: center;
+    font-weight: 700;
+}
+
+.danhmucnoibat .ten-nho {
+    font-size: 15px;
+    margin-bottom: 10px;
+    /*margin-left: 30px;*/
+    text-align: center;
+    font-weight: 600;
+    color: #8a8787;
+}
+
+.danhsachsanphamnoibat {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.noibat {
+    height: 600px;
+    position: relative;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+.wrapper-product-special{
+    width: 70%;
+}
+.chuasanphamnoibat {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    animation: alternate;
+    display: flex;
+    justify-content: center;
+}
+.sanphamnoibat {
+    float: left;
+    height: 600px;
+    margin: 0 15px;
+}
+
+.sanphamnoibat img {
+    width: 330px;
+    height: 450px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.sanphamnoibat p {
+    font-size: 20px;
+}
+
+.chuasanphamnoibat:nth-child(2) {
+    transform: translateX(100%);
+}
+
+.chuasanphamnoibat:nth-child(3) {
+    transform: translateX(200%);
+}
+
+.button_chuyen_noibat {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    left: 5%;
+    font-size: 40px;
+    color: gray;
+    top: 40%;
+}
+
+.ti-arrow-circle-left:hover {
+    color: black;
+}
+
+.ti-arrow-circle-right:hover {
+    color: black;
+}
+
+#danhsachsanpham {
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.chuabonsanphamnoibat {
+    position: relative;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+#danhsachsanpham .tendm {
+    font-size: 25px;
+    margin-bottom: 20px;
+    /*margin-left: 50px;*/
+    text-align: left;
+    font-weight: 700;
+}
+
+.sanpham {
+    width: 330px;
+    height: 550px;
+    float: left;
+    margin-bottom: 70px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dongsp {
+    width: 100%;
+    /*margin-left: 50px;*/
+    position: absolute;
+    display: flex;
+    animation: alternate;
+    justify-content: space-between;
+}
+
+.button_chuyen_noibat_san_pham {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    margin-left: 50px;
+    font-size: 40px;
+    color: gray;
+    margin-top: 220px;
+    left: -3%;
+}
+
+.dongsp:nth-child(2){
+    transform: translateX(100%);
+}
+
+.dongsp:nth-child(3){
+    transform: translateX(200%);
+}
+
+.dongsp:nth-child(4){
+    transform: translateX(300%);
+}
+
+
+.sanpham img {
+    width: 330px;
+    height: 450px;  
+    
+    object-fit: cover;
+}
+
+.sanpham p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+.sanpham .gia {
+    font-weight: bold;
+}
+
+#cuahang {
+    width: 100%;
+    
+}
+
+.nen {
+    width: 100%;
+    height: 600px;
+    background-image: url(/image/banner15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.nen-comment{
+    width: 100%;
+    height: 600px;
+    background-image: url(/image/bannerComment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.nen-comment::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(245, 240, 240, 0.51);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.nen::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    pointer-events: none;
+}
+.nen-comment .ht{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 100;
+    font-weight: bold;
+}
+.nen .ht {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 100;
+}
+
+.nen .tim {
+    font-size: 17px;
+    color: white;
+    /*border-bottom: 2px solid white;*/
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.nen .tim span {
+    border-bottom: 2px solid white;
+    position: relative;
+    z-index: 100;
+}
+#footer {
+    margin-left: 100px;
+    height: 200px;
+}
+
+#footer .right {
+    float: left;
+    margin-right: 80px;
+}
+
+#footer .right p {
+    font-weight: bold;
+}
+
+#footer .right ul {
+    margin-top: 20px;
+   
+    
+}
+
+#footer .right ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+#footer .left {
+    float: right;
+    margin-right: 250px;
+} 
+
+#footer .left .theodoi {
+    font-weight: bold;
+}
+
+
+#footer .left .email {
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+#footer .left .email input {
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    width: 200px;
+}
+
+
+#footer .left .email button {
+    height: 30px;
+    background-color: black;
+    color: white;
+    width: 80px;
+}
+
+.ketnoi {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.icon {
+    margin-top: 5px;
+}
+
+.icon i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+input {
+    outline: none;
+}
+
+.ti-shopping-cart {
+    position: relative;
+}
+
+.so-luong-san-pham {
+    position: absolute;
+    top: -18px;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 15px;
+    font-size: 15px;
+    left: 8px;
+}
+
+
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -1450px;}
+    50% {margin-left: -1450px;}
+    60% {margin-left: -2900px;}
+    80% {margin-left: -2900px;}
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+ @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+ @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background: #dde5a1;
+    padding: 20px;
+    position: relative;
+}
+
+.scrolling-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 20s linear infinite;
+}
+
+.scrolling-text span {
+    margin-right: 300px;
+}
+
+@keyframes scroll {
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.countdown {
+    text-align: center;
+    margin-top: 50px;
+}
+.countdown-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+.countdown-item span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+}
+.countdown-item label {
+    display: block;
+    font-size: 1rem;
+    color: #d80d30;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.phantrang {
+    display: flex;
+    justify-content: center;
+}
+
+#paging {
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}

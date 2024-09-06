@@ -1,0 +1,81 @@
+
+.gachngang {
+    margin-bottom: 20px;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#footer {
+	margin-top: 100px;
+    margin-left: 200px;
+    height: 200px;
+}
+
+#footer .right {
+    float: left;
+    margin-right: 80px;
+}
+
+#footer .right p {
+    font-weight: bold;
+}
+
+#footer .right ul {
+    margin-top: 20px;
+   
+    
+}
+
+#footer .right ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+#footer .left {
+    float: right;
+    margin-right: 250px;
+} 
+
+#footer .left .theodoi {
+    font-weight: bold;
+}
+
+
+#footer .left .email {
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+#footer .left .email input {
+    border: none;
+    height: 27px;
+    padding-left: 10px;
+    width: 200px;
+}
+
+
+#footer .left .email button {
+    height: 30px;
+    background-color: black;
+    color: white;
+    width: 80px;
+}
+
+.ketnoi {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.icon {
+    margin-top: 5px;
+}
+
+.icon i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+input {
+    outline: none;
+}

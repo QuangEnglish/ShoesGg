@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.clear {
+	clear: both;
+}
+
+
+#body-content {
+    margin-top: 50px;
+    margin-left: 50px;
+	float: left;
+} 
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 30px 20px;
+}
+
+.tim-kien-hoa-don {
+    margin-bottom: 30px;
+    height: 30px;
+}
+
+
+.tim-kien-hoa-don input {
+    height: 30px;
+}
+
+.tim-kien-hoa-don .tim-kiem-ten {
+    padding-left: 10px;
+    width: 250px;
+}
+
+.tim-kien-hoa-don .select-timkiem {
+	height: 30px;
+	padding-left: 10px;
+}
+
+.phantrang {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.phantrang input {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.clear {
+    clear: both;
+}
+
+#thanhtoan {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+#thanhtoan .tieude {
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+#thanhtoan .thongtinkhachhang {
+    /*float: left;*/
+}
+
+.thongtinkhachhang p {
+    margin-top: 20px;
+}
+
+.thongtinkhachhang input {
+    height: 30px;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.thongtindonhang .thongtin {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.thongtinkhachhang .nut {
+    font-size: 18px;
+    width: 360px;
+    height: 40px;
+    background-color: white;
+    
+}
+
+.thongtinkhachhang .nut:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+
+.thongtinkhachhang .xacnhan {
+    background-color: black;
+    color: white;
+}
+
+.thongtindonhang {
+    /*float: left;*/
+    /*margin-left: 100px;*/
+    width: 40%;
+    margin: 0 auto;
+}
+
+.thongtindonhang .donhang {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 55px;
+    border-bottom: 2px solid black;
+}
+
+
+.danhsachsanpham img {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.danhsachsanpham .sanpham {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    height: 150px;
+    border-bottom: 1px solid gray;
+}
+
+.sanpham .thongtinsanpham {
+    float: left;
+    margin-left: 20px;
+}
+
+.thongtinsanpham .tensanpham {
+    font-size: 20px;
+    font-weight: bold;
+    width: 420px;
+    height: 50px;
+}
+
+.thongtinsanpham p {
+    margin-bottom: 15px;
+}
+
+.tinhtien {
+    margin-top: 30px;
+}
+
+.tinhtien p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.tinhtien strong {
+    float: right;
+    margin-right: 10px;
+}
+
+.payment-method {
+	font-size: 12px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    top: 0;
+}
+
+header .logo {
+    height: 80px;
+    align-items: center;
+    float: left;
+}
+header .logo img{
+    width: 80px;
+    height: 80px;
+}
+
+
+/* Căn giữa nội dung của trang */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Nền bóng mờ */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Mockup thông báo */
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 2;
+}
+
+/* Hình ảnh dấu tích xanh */
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Nút quay lại trang chủ */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

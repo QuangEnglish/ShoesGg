@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+#thong-tin-khach-hang {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#thong-tin-khach-hang h2 {
+    margin-bottom: 30px;
+}
+
+
+#thong-tin-khach-hang td {
+    font-size: 18px;
+    height: 50px;
+}
+
+
+#thong-tin-khach-hang td input {
+    height: 30px;
+    padding-left: 10px;
+}
+
+#thong-tin-khach-hang .truong {
+    width: 200px;
+}
+
+#thong-tin-khach-hang .nhap {
+    width: 600px;
+}
+
+#thong-tin-khach-hang .nhap input{
+    width: 600px;
+}
+
+#thong-tin-khach-hang .nhap .gioi-tinh {
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+#thong-tin-khach-hang .cap-nhat {
+    height: 30px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
